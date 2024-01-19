@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    font-family: Open-Sans;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    margin-top: 30px;
+    margin-left: 1000px;
+}
+#navbar{
+    height:100px;
+    background-color:black;
+    display: flex;
+}
+
+.logo{
+
+    padding-left :50px;
+    height:100px;
+    width:40px;
+    background: url("Learn\ It\ \(1\).png");
+    background-size: cover;
+
+}
+#navbar ul li{
+    display: inline-block;
+    margin: 20px 10px;
+    list-style: none;
+    position: relative;
+   
+}
+#navbar ul li a{
+color: white;
+text-decoration: none;
+list-style: none;    
+cursor: pointer;
+
+}
+
+#navbar li a::after{
+    content:'';
+    width:0px;
+    height:8px;
+    background:white;
+    position: absolute;
+    left: 0px;
+    bottom:-4px;
+    transition: 0.25s;
+
+}
+#navbar ul li a:hover::after{
+    width:100%;
+}
+.text{
+    display:flex;
+    justify-content: space-around;
+    background:url("Untitled\ design.png");
+    height:750px;
+
+
+
+}
+.content{
+    margin-top:100px;
+    box-shadow: 12px 12px 2px 1px silver;
+    height: 400px;
+    width:350px;
+    font-size:30px;
+    border-radius:9px;
+    background-color: lightpink;
+    border: solid 5px black;
+    padding:67px;
+    display:flex;
+    align-items:centre;
+    
+}
+.first{
+    background: #000;
+    color: white;
+    height: 200px;
+    width: 500px;
+    margin-top:10px;
+    border: 10px lightcyan solid;
+}
+#tutor{
+    background: url("Untitled\ design\ \(1\).png");
+}
+.get{
+    margin-top: 100px;;
+    background:url("Untitled\ design\ \(3\).png");
+    height: 700px;
+    columns: black;
+
+}
+.gethead{
+    margin: 50px;;
+    margin-top: 50px;
+    height: 100px;
+    width:500px;
+   
+}
+#points{
+    display: flex;
+    justify-content: space-around;
+    margin:100px;
+    color: black;
+}
+.feature{
+    height: 300px;
+    padding: 50px;
+    width:250px;
+    border: 10px solid lightcoral;
+    color: lightcoral;
+    font-weight: bolder;
+    
+}
+#contact{
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: #000;
+    height: 150px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+}
